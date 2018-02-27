@@ -1,0 +1,30 @@
+{
+  "name": "iiofficeexam",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Luke A. Magsoling"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.3.1"
+  },
+  "overrides": {
+    "jquery": {
+      "main": [
+        "jquery.min.js"
+      ]
+    }
+  },
+  "resolutions": {
+    "jquery": "^3.3.1"
+  }
+}
