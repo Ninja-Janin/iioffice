@@ -14,7 +14,7 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./css'));
 });
 
-gulp.task('default', function () {
+gulp.task('inject', function () {
 	var target  = gulp.src('./src/app/html/index.html');
 	var sources = gulp.src(['./src/**/*.js', './css/**/*.css'], {read: false});
 	var bower   = gulp.src(mbf(), { read: false })
@@ -25,7 +25,8 @@ gulp.task('default', function () {
 		.pipe(gulp.dest('./'));
 });
 
-gulp.task('server', function () {
-  gulp.watch('./src/**/*.scss', ['index', 'sass']);
+gulp.task('watch', function () {
+  gulp.watch('./src/**/*.scss', ['sass']);
 });
 
+gulp.task('default', [ 'sass', 'inject', 'watch' ]);
