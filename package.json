@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	  "start": "node server",
+	  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Luke A. Magsoling",
   "license": "ISC",
@@ -17,5 +18,8 @@
     "gulp-sass-glob": "^1.0.8",
     "gulp-util": "^3.0.8",
     "main-bower-files": "^2.13.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }
