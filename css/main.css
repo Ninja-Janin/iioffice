@@ -1,14 +1,16 @@
 header {
   background: grey;
-  height: 250px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto; }
-  header .logo-container {
-    height: 50px;
-    background: yellow; }
-  header .slider-container {
-    height: 200px; }
+  width: 100%; }
+  header .header-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px; }
+    header .header-container .logo-container {
+      height: 50px;
+      background: yellow; }
+    header .header-container .slider-container {
+      background: green;
+      height: 200px; }
 
 main {
   margin-left: auto;

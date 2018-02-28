@@ -1,16 +1,18 @@
 header{
 	background: grey;
-	height: 250px;
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-
-	.logo-container{
-		height: 50px;
-		background: yellow;
-	}
-	.slider-container{
-		height: 200px;
+	.header-container{
+		margin-left: auto;
+		margin-right: auto;
+		width: 1200px;
+		.logo-container{
+			height: 50px;
+			background: yellow;
+		}
+		.slider-container{
+			background: green;
+			height: 200px;
+		}
 	}
 	
 }
