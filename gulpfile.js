@@ -22,7 +22,7 @@ gulp.task('sass', function () {
 })
 
 gulp.task('inject', function () {
-	var target  = gulp.src('./src/app/html/index.html')
+	var target  = gulp.src('./src/app/main/index.html')
 	var sources = gulp.src(['./src/**/*.js', './css/**/*.css'], {read: false})
 	var bower   = gulp.src(mbf(), { read: false })
 
@@ -33,11 +33,12 @@ gulp.task('inject', function () {
 })
 
 gulp.task('reload:inject', [ 'inject' ], reload)
-gulp.task('reload:sass', [ 'sass' ], reload)
+gulp.task('reload:sass', [ 'sass', 'inject'], reload)
+
 gulp.task('watch', function () {
 	gulp.watch('src/app/**/*.js', ['reload:inject'])
 	gulp.watch('src/app/**/*.html', ['reload:inject'])
-	gulp.watch('src/assets/**/*.scss', ['reload:inject'])
+	gulp.watch('src/assets/**/*.scss', ['reload:sass'])
 })
 
 gulp.task('go',function(){
