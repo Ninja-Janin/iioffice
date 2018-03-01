@@ -1,0 +1,47 @@
+.slider{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+
+	&__gallery{
+		position: relative;
+		left: 0%;
+		margin: 0;
+	}
+
+	&__image-content{
+		position: absolute;
+		color:#fff;
+	}
+
+	&__image-heading-content--main{
+		top: 14%;
+		left: 20%;
+		font-size: 4em;
+	}
+
+	&__image-heading-content--sub {
+		top: 51%;
+		left: 29%;
+		font-size: 1em;
+		letter-spacing: 0.1em;
+	}
+
+	&__btn-trigger{
+		position: absolute;
+		cursor: pointer;
+	}
+
+	&__btn-triggers{
+		top: 45%;
+	}
+
+	&__btn-trigger-left{
+		left:10%
+	}
+
+
+	&__btn-trigger-right{
+		right: 10%;
+	}
+}

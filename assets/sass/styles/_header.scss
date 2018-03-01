@@ -7,6 +7,12 @@
 	text-align: center;
 	padding: 15px;
 	border-top: 2px solid #E7B92F;
+
+	a{
+		color: initial;
+		text-decoration: none;
+	}
+
 	&__heading{
 		margin: 0;
 		font-size: 3em;
