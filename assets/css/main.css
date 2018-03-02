@@ -1,10 +1,10 @@
 @charset "UTF-8";
 body {
-  margin: 0 auto;
   min-width: 960px;
-  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  margin: 0; }
 
-header, footer {
+footer {
   display: block; }
 
 @font-face {
@@ -19,28 +19,30 @@ header, footer {
   .page-header a {
     color: initial;
     text-decoration: none; }
-  .page-header__heading {
-    margin: 0;
-    font-size: 3em;
-    letter-spacing: 2px; }
 
 .slider {
   position: relative;
-  overflow: hidden;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  overflow: hidden; }
   .slider__gallery {
     position: relative;
+    width: 251%;
+    margin: 0;
     left: 0%;
-    margin: 0; }
+    text-align: left;
+    font-size: 0; }
+  .slider__gallery-photos {
+    width: 40%;
+    float: left; }
   .slider__image-content {
     position: absolute;
     color: #fff; }
   .slider__image-heading-content--main {
-    top: 14%;
+    top: 1%;
     left: 20%;
     font-size: 4em; }
   .slider__image-heading-content--sub {
-    top: 51%;
+    top: 49%;
     left: 29%;
     font-size: 1em;
     letter-spacing: 0.1em; }
@@ -48,8 +50,16 @@ header, footer {
     position: absolute;
     cursor: pointer; }
   .slider__btn-triggers {
-    top: 45%; }
+    top: 40%; }
   .slider__btn-trigger-left {
     left: 10%; }
   .slider__btn-trigger-right {
     right: 10%; }
+  .slider__btn-indicator {
+    top: 91%; }
+  .slider__btn-indicator-1st {
+    left: 48%; }
+  .slider__btn-indicator-2nd {
+    left: 51%; }
+  .slider__btn-indicator-3rd {
+    left: 54%; }

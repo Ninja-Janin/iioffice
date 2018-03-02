@@ -1,12 +1,20 @@
 .slider{
 	position: relative;
-	overflow: hidden;
 	margin-bottom: 20px;
+	overflow: hidden;
 
 	&__gallery{
-		position: relative;
-		left: 0%;
-		margin: 0;
+        position: relative;
+        width: 251%;
+        margin: 0;
+        left: 0%;
+        text-align: left;
+        font-size: 0;
+	}
+
+	&__gallery-photos{
+        width: 40%; 
+        float: left;
 	}
 
 	&__image-content{
@@ -15,13 +23,14 @@
 	}
 
 	&__image-heading-content--main{
-		top: 14%;
-		left: 20%;
-		font-size: 4em;
+        top: 1%;
+        left: 20%;
+        font-size: 4em;
 	}
 
+	// prev next
 	&__image-heading-content--sub {
-		top: 51%;
+		top: 49%;
 		left: 29%;
 		font-size: 1em;
 		letter-spacing: 0.1em;
@@ -33,7 +42,7 @@
 	}
 
 	&__btn-triggers{
-		top: 45%;
+		top: 40%;
 	}
 
 	&__btn-trigger-left{
@@ -43,5 +52,19 @@
 
 	&__btn-trigger-right{
 		right: 10%;
+	}
+
+	//slide indicators
+	&__btn-indicator{
+		top: 91%;
+	}
+	&__btn-indicator-1st{
+		left: 48%; 
+	}
+	&__btn-indicator-2nd{
+		left: 51%; 
+	}
+	&__btn-indicator-3rd{
+		left: 54%; 
 	}
 }
