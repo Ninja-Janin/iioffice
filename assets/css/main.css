@@ -15,6 +15,7 @@ body {
     min-width: 380px;
     padding-right: 55px; }
   .content__article-items {
+    clear: both;
     cursor: pointer;
     margin-top: 10px; }
     .content__article-items:first-child {
@@ -82,15 +83,17 @@ body {
     width: 40%;
     float: left; }
   .slider__image-content {
-    position: absolute;
     color: #fff; }
   .slider__image-heading-content--main {
-    top: 1%;
-    left: 20%;
     font-size: 4em; }
+  .slider__image-heading-content-figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
   .slider__image-heading-content--sub {
-    top: 49%;
-    left: 29%;
     font-size: 1em;
     letter-spacing: 0.1em; }
   .slider__btn-trigger {
