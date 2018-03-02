@@ -4,9 +4,6 @@ body {
   font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   margin: 0; }
 
-footer {
-  display: block; }
-
 .content {
   margin: 0 auto;
   max-width: 10000px;
@@ -46,7 +43,7 @@ footer {
     font-size: 14px;
     line-height: 1.3em; }
   .content__articles-footer-btn {
-    margin: 60px;
+    margin: 79px auto 39px 0;
     text-align: center; }
   .content__more-articles-btn {
     position: relative;
@@ -65,18 +62,10 @@ footer {
     top: 31%;
     right: 7%; }
 
-@font-face {
-  font-family: '../fonts/Lucida_Calligraphy_Italic.ttf';
-  src: url("../fonts/Lucida_Calligraphy_Italic.fft"); }
-
 .page-header {
-  font-family: "Lucida Calligraphy", sans-serif;
   text-align: center;
   padding: 15px;
   border-top: 2px solid #E7B92F; }
-  .page-header a {
-    color: initial;
-    text-decoration: none; }
 
 .slider {
   position: relative;
