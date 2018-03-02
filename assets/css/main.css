@@ -66,6 +66,27 @@ body {
     top: 31%;
     right: 7%; }
 
+.site-footer {
+  clear: both; }
+  .site-footer__btn-container {
+    padding: 1em 8.4em;
+    text-align: right; }
+  .site-footer__btn-pagetop {
+    cursor: pointer;
+    margin: 0; }
+  .site-footer__nav {
+    padding: 1em 8.4em;
+    color: #fff;
+    background-color: #000; }
+  .site-footer__left-text {
+    padding-right: 20px;
+    color: #fff;
+    text-decoration: none; }
+    .site-footer__left-text:hover {
+      color: #9C9C9C; }
+  .site-footer__right-text {
+    float: right; }
+
 .page-header {
   text-align: center;
   padding: 15px;
