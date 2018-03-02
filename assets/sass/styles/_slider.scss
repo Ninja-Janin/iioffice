@@ -4,12 +4,12 @@
 	overflow: hidden;
 
 	&__gallery{
-        position: relative;
+        font-size: 0;
         width: 251%;
         margin: 0;
+        position: relative;
         left: 0%;
         text-align: left;
-        font-size: 0;
 	}
 
 	&__gallery-photos{
@@ -28,7 +28,6 @@
         font-size: 4em;
 	}
 
-	// prev next
 	&__image-heading-content--sub {
 		top: 49%;
 		left: 29%;
@@ -48,7 +47,6 @@
 	&__btn-trigger-left{
 		left:10%
 	}
-
 
 	&__btn-trigger-right{
 		right: 10%;

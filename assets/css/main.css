@@ -7,6 +7,64 @@ body {
 footer {
   display: block; }
 
+.content {
+  margin: 0 auto;
+  max-width: 10000px;
+  padding-left: 10%;
+  padding-right: 39%; }
+  .content__article {
+    float: left;
+    width: 100%;
+    min-width: 380px;
+    padding-right: 55px; }
+  .content__article-items {
+    cursor: pointer;
+    margin-top: 10px; }
+    .content__article-items:first-child {
+      margin-top: 10px; }
+  .content__article-item-image {
+    float: left;
+    width: 210px;
+    height: 110px;
+    padding: 12px 15px 0 0; }
+  .content__article-item-date {
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.3em;
+    color: #9C9C9C;
+    padding-top: 10px; }
+  .content__article-item-title {
+    margin: 3px auto 3px auto;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.5em; }
+    .content__article-item-title:hover {
+      color: #e69d30; }
+  .content__article-item-preview {
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.3em; }
+  .content__articles-footer-btn {
+    margin: 60px;
+    text-align: center; }
+  .content__more-articles-btn {
+    position: relative;
+    padding: 5px 187px;
+    border-width: 0;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #333; }
+    .content__more-articles-btn:hover {
+      color: #e69d30; }
+  .content__more-articles-right-arrow {
+    width: 9px;
+    position: absolute;
+    top: 31%;
+    right: 7%; }
+
 @font-face {
   font-family: '../fonts/Lucida_Calligraphy_Italic.ttf';
   src: url("../fonts/Lucida_Calligraphy_Italic.fft"); }
@@ -25,12 +83,12 @@ footer {
   margin-bottom: 20px;
   overflow: hidden; }
   .slider__gallery {
-    position: relative;
+    font-size: 0;
     width: 251%;
     margin: 0;
+    position: relative;
     left: 0%;
-    text-align: left;
-    font-size: 0; }
+    text-align: left; }
   .slider__gallery-photos {
     width: 40%;
     float: left; }
