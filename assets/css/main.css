@@ -118,13 +118,13 @@ body {
   overflow: hidden; }
   .slider__gallery {
     font-size: 0;
-    width: 251%;
+    width: 300%;
     margin: 0;
     position: relative;
     left: 0%;
     text-align: left; }
-  .slider__gallery-photos {
-    width: 40%;
+  .slider__gallery-image {
+    width: 33.333%;
     float: left; }
   .slider__image-content {
     color: #fff; }
