@@ -10,7 +10,7 @@ body {
 .content {
   margin: 0 auto;
   max-width: 10000px;
-  padding-left: 10%;
+  padding-left: 7%;
   padding-right: 39%; }
   .content__article {
     float: left;
@@ -47,6 +47,8 @@ body {
     font-size: 17px;
     font-weight: bold;
     line-height: 1.5em; }
+    .content__article-item-title:hover {
+      color: #e69d30; }
   .content__article-item-preview {
     margin: 0 auto;
     font-size: 14px;
@@ -117,15 +119,17 @@ body {
   margin-top: 20px; }
   .sidebar__dummy-banner-top {
     margin: 20px; }
-  .sidebar__recommended-item-list {
+  .sidebar__recommended-item {
     margin-bottom: 40px; }
+    .sidebar__recommended-item ul {
+      list-style: none; }
   .sidebar__recommended-title {
     text-align: center;
     margin: 20px;
     border-bottom: 2px solid #000; }
   .sidebar__recommended-item-content {
     cursor: pointer;
-    margin: 20px; }
+    margin: 0 11px 15px -19px; }
     .sidebar__recommended-item-content a {
       text-decoration: none;
       color: #000000; }

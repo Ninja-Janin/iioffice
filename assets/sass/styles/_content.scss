@@ -1,7 +1,7 @@
 .content{
     margin: 0 auto;
     max-width: 10000px;
-    padding-left: 10%;
+    padding-left: 7%;
     padding-right: 39%;
 
 	&__article{
@@ -51,6 +51,9 @@
         font-size: 17px;
         font-weight: bold;
         line-height: 1.5em;
+        &:hover {
+            color: #e69d30;
+        }
     }
 
     &__article-item-preview {

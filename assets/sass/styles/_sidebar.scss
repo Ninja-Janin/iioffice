@@ -9,8 +9,11 @@
         margin: $medium;
     }
 
-    &__recommended-item-list {
+    &__recommended-item{
         margin-bottom: 40px;
+		ul{
+			list-style: none;
+		}
     }
 
     &__recommended-title {
@@ -21,7 +24,7 @@
 
     &__recommended-item-content {
         cursor: pointer;
-        margin: $medium;
+        margin: 0 11px 15px -19px;
 		a{
 			text-decoration:none;
 			color: $default-color;
