@@ -27,7 +27,7 @@ body {
       text-decoration: none;
       color: #000000; }
       .content__article-item a:hover {
-        color: #e69d30; }
+        color: #E7B92F; }
     .content__article-item:first-child {
       margin-top: 10px; }
   .content__article-item-image {
@@ -48,7 +48,7 @@ body {
     font-weight: bold;
     line-height: 1.5em; }
     .content__article-item-title:hover {
-      color: #e69d30; }
+      color: #E7B92F; }
   .content__article-item-preview {
     margin: 0 auto;
     font-size: 14px;
@@ -62,36 +62,36 @@ body {
     border-width: 0;
     cursor: pointer;
     font-size: 20px;
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
     background-color: #333; }
     .content__more-articles-btn:hover {
-      color: #e69d30; }
+      color: #E69D30; }
   .content__more-articles-right-arrow {
     width: 9px;
     position: absolute;
     top: 31%;
     right: 7%; }
 
-.site-footer {
+.page-footer {
   clear: both; }
-  .site-footer__btn-container {
+  .page-footer__btn-container {
     padding: 1em 8.4em;
     text-align: right; }
-  .site-footer__btn-pagetop {
+  .page-footer__btn-up {
     cursor: pointer;
     margin: 0; }
-  .site-footer__nav {
+  .page-footer__nav {
     padding: 1em 8.4em;
-    color: #fff;
-    background-color: #000; }
-  .site-footer__left-text {
+    color: #FFF;
+    background-color: #000000; }
+  .page-footer__text {
     padding-right: 20px;
-    color: #fff;
+    color: #FFF;
     text-decoration: none; }
-    .site-footer__left-text:hover {
+    .page-footer__text:hover {
       color: #9C9C9C; }
-  .site-footer__right-text {
+  .page-footer__copyright {
     float: right; }
 
 @font-face {
@@ -126,7 +126,7 @@ body {
   .sidebar__recommended-title {
     text-align: center;
     margin: 20px;
-    border-bottom: 2px solid #000; }
+    border-bottom: 2px solid #000000; }
   .sidebar__recommended-item-content {
     cursor: pointer;
     margin: 0 11px 15px -19px; }
@@ -144,7 +144,7 @@ body {
     font-size: 13px;
     line-height: 1.5em; }
     .sidebar__recommended-article-title:hover {
-      color: #e69d30; }
+      color: #E69D30; }
   .sidebar__recommended-article-date {
     margin: 0 auto;
     display: block;
@@ -169,7 +169,7 @@ body {
     width: 33.333%;
     float: left; }
   .slider__caption {
-    color: #fff; }
+    color: #FFF; }
   .slider__content {
     position: absolute;
     left: 0;

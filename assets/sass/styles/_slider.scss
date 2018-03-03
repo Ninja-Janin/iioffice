@@ -1,9 +1,9 @@
-.slider{
+.slider {
 	position: relative;
 	margin-bottom: 20px;
 	overflow: hidden;
 
-	&__photo{
+	&__photo {
         font-size: 0;
         width: 300%;
         margin: 0;
@@ -12,16 +12,16 @@
         text-align: left;
 	}
 
-	&__photo-image{
+	&__photo-image {
         width: 33.333%; 
         float: left;
 	}
 
-	&__caption{
-		color:#fff;
+	&__caption {
+		color: $white;
 	}
 
-	&__content{
+	&__content {
 		position: absolute; 
 		left: 0; right: 0; 
 		margin-left: auto; 
@@ -29,7 +29,7 @@
 		text-align: center;
 	}
 
-	&__qoute--main{
+	&__qoute--main {
 		top: 4em;
 		left: 20%;
         font-size: 4em;
@@ -40,34 +40,34 @@
 		letter-spacing: 0.1em;
 	}
 
-	&__btn-trigger{
+	&__btn-trigger {
 		position: absolute;
 		cursor: pointer;
 	}
 
-	&__btn-triggers{
+	&__btn-triggers {
 		top: 40%;
 	}
 
-	&__btn-trigger-left{
+	&__btn-trigger-left {
 		left:10%
 	}
 
-	&__btn-trigger-right{
+	&__btn-trigger-right {
 		right: 10%;
 	}
 
 	//slide indicators
-	&__btn-indicator{
+	&__btn-indicator {
 		top: 91%;
 	}
-	&__btn-indicator-1st{
+	&__btn-indicator-1st {
 		left: 48%; 
 	}
-	&__btn-indicator-2nd{
+	&__btn-indicator-2nd {
 		left: 51%; 
 	}
-	&__btn-indicator-3rd{
+	&__btn-indicator-3rd {
 		left: 54%; 
 	}
 }

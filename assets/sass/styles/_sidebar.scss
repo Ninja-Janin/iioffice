@@ -1,62 +1,62 @@
 .sidebar {
-    background-color: #EFEFEF;
-    float: left;
-    margin-right: -1000px;
-    width: 340px;
-    margin-top: $medium;
+	background-color: $light-grey;
+	float: left;
+	margin-right: -1000px;
+	width: 340px;
+	margin-top: $medium;
 
-    &__dummy-banner-top {
-        margin: $medium;
-    }
+	&__dummy-banner-top {
+		margin: $medium;
+	}
 
-    &__recommended-item{
-        margin-bottom: 40px;
+	&__recommended-item {
+		margin-bottom: 40px;
 		ul{
 			list-style: none;
 		}
-    }
+	}
 
-    &__recommended-title {
-        text-align: center;
-        margin: $medium;
-        border-bottom: 2px solid #000;
-    }
+	&__recommended-title {
+		text-align: center;
+		margin: $medium;
+		border-bottom: 2px solid $black;
+	}
 
-    &__recommended-item-content {
-        cursor: pointer;
-        margin: 0 11px 15px -19px;
+	&__recommended-item-content {
+		cursor: pointer;
+		margin: 0 11px 15px -19px;
 		a{
 			text-decoration:none;
-			color: $default-color;
+			color: $black;
 		}
-    }
+	}
 
-    &__recommended-item-photo {
-        width: 120px;
-        height: 68px;
-        padding: 5px 10px 0 0;
-        float: left;
-    }
+	&__recommended-item-photo {
+		width: 120px;
+		height: 68px;
+		padding: 5px 10px 0 0;
+		float: left;
+	}
 
-    &__recommended-article-title {
+	&__recommended-article-title {
 		text-decoration:none;
-        margin: 3px auto 3px auto;
-        font-size: 13px;
-        line-height: 1.5em;
-        &:hover {
-            color: #e69d30;
-        }
-    }
+		margin: 3px auto 3px auto;
+		font-size: 13px;
+		line-height: 1.5em;
+		&:hover {
+			color: $hover-yellow;
+		}
+	}
 
-    &__recommended-article-date {
-        margin: 0 auto;
-        display: block;
-        font-size: 11px;
-        color: $default;
-        line-height: 1.3em;
-    }
+	&__recommended-article-date {
+		margin: 0 auto;
+		display: block;
+		font-size: 11px;
+		color: $grey61;
+		line-height: 1.3em;
+	}
 
-    &__dummy-banner-btn {
-        margin: $medium;
-    }
+	&__dummy-banner-btn {
+		margin: $medium;
+	}
 }

@@ -15,7 +15,7 @@ $(document).ready(() => {
 		self.image_preview(slider_btn_event, id)
     })
 
-    $('#btn-pagetop').on('click', () => {
+    $('#scroll-top-btn').on('click', () => {
         $('html, body').animate({ scrollTop: 0 }, 'slow')
         return false
     })

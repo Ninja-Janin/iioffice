@@ -1,7 +1,12 @@
-$font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-$medium: 20px;
-$default-color: #000000; 
-$default: #9C9C9C;
+$font-family:  "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+$medium:       20px;
+$black:        #000000;
+$grey61:       #9C9C9C;
+$grey20:       #333;
+$white:        #FFF;
+$dark-yellow:  #E7B92F;
+$hover-yellow: #E69D30;
+$light-grey:   #EFEFEF;
 
 body{
 	min-width:960px;

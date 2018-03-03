@@ -1,4 +1,4 @@
-.site-footer {
+.page-footer {
 	clear: both;
 
 	&__btn-container {
@@ -7,28 +7,28 @@
 
 	}
 
-	&__btn-pagetop {
+	&__btn-up {
 		cursor: pointer;
 		margin: 0;
 	}
 
 	&__nav {
 		padding: 1em 8.4em;
-		color: #fff;
-		background-color: #000;
+		color: $white;
+		background-color: $black;
 	}
 
-	&__left-text {
+	&__text {
 		padding-right: $medium;
-		color: #fff;
+		color: $white;
 		text-decoration: none;
 
 		&:hover {
-			color: $default;
+			color: $grey61;
 		}
 	}
 
-	&__right-text {
+	&__copyright {
 		float: right;
 	}
 }
