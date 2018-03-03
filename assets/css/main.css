@@ -4,17 +4,17 @@ body {
   font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   margin: 0; }
   body a {
-    color: initial;
+    color: #000000;
     text-decoration: none; }
 
 .content {
-  margin: 0 auto;
-  max-width: 10000px;
+  margin: 0;
+  min-width: 10000px auto;
   padding-left: 7%;
   padding-right: 39%; }
   .content__article {
     float: left;
-    width: 100%;
+    width: 712px;
     min-width: 380px;
     padding-right: 55px; }
     .content__article ul {
@@ -23,13 +23,11 @@ body {
     clear: both;
     cursor: pointer;
     margin-top: 20px; }
-    .content__article-item a {
-      text-decoration: none;
-      color: #000000; }
-      .content__article-item a:hover {
-        color: #E7B92F; }
+    .content__article-item a:hover {
+      color: #E7B92F; }
     .content__article-item:first-child {
-      margin-top: 10px; }
+      margin-top: 10px;
+      padding: 0 0em 1em; }
   .content__article-item-image {
     float: left;
     width: 210px;
@@ -116,7 +114,7 @@ body {
   float: left;
   margin-right: -1000px;
   width: 340px;
-  margin-top: 20px; }
+  margin-top: 27px; }
   .sidebar__dummy-banner-top {
     margin: 20px; }
   .sidebar__recommended-item {
