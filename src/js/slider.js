@@ -31,8 +31,8 @@ $(document).ready(() => {
 
 	self.showSlides = (n) => {
 		let i;
-		let slides = document.getElementsByClassName("slider__photo--hide");
-		let dots   = document.getElementsByClassName("slider__current-slide");
+		let slides           = document.getElementsByClassName("slider__photo--hide");
+		let slider_indicator = document.getElementsByClassName("slider__current-slide");
 
 		if (n > slides.length) {
 			active_slide = 1
@@ -46,12 +46,12 @@ $(document).ready(() => {
 			slides[i].style.display = "none";  
 		}
 
-		for (i = 0; i < dots.length; i++) {
-			dots[i].className = dots[i].className.replace(" active", "");
+		for (i = 0; i < slider_indicator.length; i++) {
+			slider_indicator[i].className = slider_indicator[i].className.replace(" active", "");
 		}
 		
 		slides[active_slide - 1].style.display = "block";  
-		dots[active_slide - 1].className += " active";
+		slider_indicator[active_slide - 1].className += " active";
 	}
 
 	self.showSlides(active_slide);
