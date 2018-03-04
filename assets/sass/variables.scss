@@ -8,6 +8,15 @@ $dark-yellow:  #E7B92F;
 $hover-yellow: #E69D30;
 $light-grey:   #EFEFEF;
 
+@webkit-keyframes fade {
+	  from {opacity: .4} 
+	    to {opacity: 1}
+}
+
+@keyframes fade {
+	  from {opacity: .4} 
+	    to {opacity: 1}
+}
 
 
 

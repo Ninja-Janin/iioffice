@@ -1,7 +1,15 @@
 .slider {
+	vertical-align: middle;
 	position: relative;
 	margin-bottom: 20px;
 	overflow: hidden;
+
+	&__photo--fade {
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
+	}
 
 	&__photo {
         font-size: 0;
@@ -10,6 +18,10 @@
         position: relative;
         left: 0%;
         text-align: left;
+	}
+
+	&__photo--hide{
+		display:none;
 	}
 
 	&__photo-image {
