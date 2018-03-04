@@ -2,7 +2,7 @@ $(document).ready(() => {
 	let slider_element = $('#photo-slider'),
 		active_index   = 1,
 		image_width    = 33.333,
-		default_slide  = '#pager-' +active_index,
+		default_slide  = '#indicator-' +active_index,
 		self           = this,
 		multiplier;
 
@@ -46,11 +46,11 @@ $(document).ready(() => {
 			multiplier = 3;
 			active_index += 1;
 		}
-		else if(id == 'pager-2'){
+		else if(id == 'indicator-2'){
 			multiplier = (active_index == 3) ? -3 : 3;
 			active_index = 2;
 		}
-		else if(id == 'pager-3'){
+		else if(id == 'indicator-3'){
 			multiplier = (active_index == 1) ? 6 : 3;
 			active_index = 3;
 		}
@@ -62,8 +62,8 @@ $(document).ready(() => {
 
 	self.slider_animation = () =>{
 		slider_element.animate({ left: '+=' + (-image_width * multiplier + '%') },() => {
-			$('#pager-' + active_index).attr('src', 'assets/images/hover-indicator.png');
-			$('.slider__btn-indicator').not('#pager-' + active_index).attr('src', 'assets/images/slide-indicator.png');
+			$('#indicator-' + active_index).attr('src', 'assets/images/hover-indicator.png');
+			$('.slider__btn-indicator').not('#indicator-' + active_index).attr('src', 'assets/images/slide-indicator.png');
 			if(active_index == 1) {
 				$('#previous').hide();
 				$('#next').show();
