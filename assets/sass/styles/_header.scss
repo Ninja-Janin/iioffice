@@ -3,13 +3,13 @@
     src: url('../fonts/lucida-calligraphy-italic.ttf');
 }
 
-.site-header{
+.site-header {
 	font-family: "Lucida Calligraphy", sans-serif;
 	text-align: center;
 	padding: 15px;
 	border-top: 2px solid $dark-yellow;
 
-	&__title{
+	&__title {
 		margin: 0;
 		font-size: 3em;
 		letter-spacing:2px
