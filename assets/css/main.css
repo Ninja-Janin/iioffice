@@ -3,73 +3,83 @@ body {
   min-width: 960px;
   font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   margin: 0; }
-  body a {
-    color: #000000;
-    text-decoration: none; }
+  body main section:nth-of-type(2) {
+    min-width: 1147px;
+    max-width: 500px;
+    width: 0;
+    margin: auto; }
+    body main section:nth-of-type(2) a {
+      color: #000000;
+      text-decoration: none; }
+    body main section:nth-of-type(2) footer a {
+      color: #FFF; }
 
-.content {
-  margin: 0;
-  min-width: 10000px auto;
-  padding-left: 7%;
-  padding-right: 39%; }
-  .content__article {
-    float: left;
-    width: 712px;
-    min-width: 380px;
-    padding-right: 55px; }
-    .content__article ul {
-      list-style: none; }
-  .content__article-item {
-    clear: both;
-    cursor: pointer;
-    margin-top: 20px; }
-    .content__article-item a:hover {
-      color: #E7B92F; }
-    .content__article-item:first-child {
-      margin-top: 10px;
-      padding: 0 0em 1em; }
-  .content__article-item-image {
-    float: left;
-    width: 210px;
-    height: 123px;
-    padding: 12px 15px 0 0; }
-  .content__article-item-date {
-    display: block;
-    margin: 0 auto;
-    font-size: 14px;
-    line-height: 1.3em;
-    color: #9C9C9C;
-    padding-top: 10px; }
-  .content__article-item-title {
-    margin: 3px auto 3px auto;
-    font-size: 17px;
-    font-weight: bold;
-    line-height: 1.5em; }
-    .content__article-item-title:hover {
-      color: #E7B92F; }
-  .content__article-item-preview {
-    margin: 0 auto;
-    font-size: 14px;
-    line-height: 1.3em; }
-  .content__articles-footer-btn {
-    margin: 79px auto 39px 0;
-    text-align: center; }
-  .content__more-articles-btn {
-    position: relative;
-    padding: 5px 187px;
-    border-width: 0;
-    cursor: pointer;
-    font-size: 20px;
-    color: #FFF;
-    text-decoration: none;
-    background-color: #333; }
-    .content__more-articles-btn:hover {
-      color: #E69D30; }
-  .content__more-articles-right-arrow {
-    width: 9px;
-    position: absolute;
-    top: 31%;
-    right: 7%; }
+.content__article {
+  float: left;
+  width: 712px;
+  min-width: 380px;
+  padding-right: 55px; }
+  .content__article ul {
+    list-style: none; }
+
+.content__article-item {
+  clear: both;
+  cursor: pointer;
+  margin-top: 20px; }
+  .content__article-item a:hover {
+    color: #E7B92F; }
+  .content__article-item:first-child {
+    margin-top: 10px;
+    padding: 0 0em 1em; }
+
+.content__article-item-image {
+  float: left;
+  width: 210px;
+  height: 123px;
+  padding: 12px 15px 0 0; }
+
+.content__article-item-date {
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1.3em;
+  color: #9C9C9C;
+  padding-top: 10px; }
+
+.content__article-item-title {
+  margin: 3px auto 3px auto;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.5em; }
+  .content__article-item-title:hover {
+    color: #E7B92F; }
+
+.content__article-item-preview {
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1.3em; }
+
+.content__articles-footer-btn {
+  margin: 79px auto 39px 0;
+  text-align: center; }
+
+.content__more-articles-btn {
+  position: relative;
+  padding: 5px 187px;
+  border-width: 0;
+  cursor: pointer;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #333; }
+  .content__more-articles-btn:hover {
+    color: #E69D30; }
+
+.content__more-articles-right-arrow {
+  width: 9px;
+  position: absolute;
+  top: 31%;
+  right: 7%; }
 
 .page-footer {
   clear: both; }
@@ -105,9 +115,6 @@ body {
     margin: 0;
     font-size: 3em;
     letter-spacing: 2px; }
-
-.page {
-  margin: 0 auto; }
 
 .sidebar {
   background-color: #EFEFEF;
