@@ -176,31 +176,34 @@ body {
   .slider__content {
     position: absolute;
     left: 0;
-    right: 0;
+    right: -29px;
     margin-left: auto;
     margin-right: auto;
+    top: 59px;
     text-align: center; }
   .slider__qoute--main {
     top: 4em;
     left: 20%;
-    font-size: 4em; }
+    font-size: 62.7px; }
   .slider__qoute--sub {
+    margin-top: -36px;
+    margin-left: -23px;
     font-size: 1em;
-    letter-spacing: 0.1em; }
+    letter-spacing: 0.07; }
   .slider__btn-trigger {
     position: absolute;
     cursor: pointer; }
   .slider__btn-triggers {
-    top: 40%; }
+    top: 44%; }
   .slider__btn-trigger-left {
-    left: 10%; }
+    left: 11.4%; }
   .slider__btn-trigger-right {
-    right: 10%; }
+    right: 11.4%; }
   .slider__btn-indicator {
-    top: 91%; }
+    top: 91.5%; }
   .slider__btn-indicator-1st {
-    left: 48%; }
+    left: 47.2%; }
   .slider__btn-indicator-2nd {
-    left: 51%; }
+    left: 49.5%; }
   .slider__btn-indicator-3rd {
-    left: 54%; }
+    left: 51.75%; }

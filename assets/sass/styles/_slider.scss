@@ -23,21 +23,25 @@
 
 	&__content {
 		position: absolute; 
-		left: 0; right: 0; 
+		left: 0;
+		right: -29px; 
 		margin-left: auto; 
 		margin-right: auto; 
+		top:59px;
 		text-align: center;
 	}
 
 	&__qoute--main {
 		top: 4em;
 		left: 20%;
-        font-size: 4em;
+        font-size: 62.7px;
 	}
 
 	&__qoute--sub {
+		margin-top: -36px;
+		margin-left: -23px;
 		font-size: 1em;
-		letter-spacing: 0.1em;
+		letter-spacing: 0.07;
 	}
 
 	&__btn-trigger {
@@ -46,28 +50,28 @@
 	}
 
 	&__btn-triggers {
-		top: 40%;
+		top: 44%;
 	}
 
 	&__btn-trigger-left {
-		left:10%
+		left:11.4%
 	}
 
 	&__btn-trigger-right {
-		right: 10%;
+		right: 11.4%;
 	}
 
 	//slide indicators
 	&__btn-indicator {
-		top: 91%;
+		top: 91.5%;
 	}
 	&__btn-indicator-1st {
-		left: 48%; 
+		left: 47.2%; 
 	}
 	&__btn-indicator-2nd {
-		left: 51%; 
+		left: 49.5%; 
 	}
 	&__btn-indicator-3rd {
-		left: 54%; 
+		left: 51.75%; 
 	}
 }
