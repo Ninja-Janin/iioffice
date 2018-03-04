@@ -213,6 +213,9 @@ body {
   .slider__btn-trigger {
     position: absolute;
     cursor: pointer; }
+  .slider__current-slide {
+    position: absolute;
+    cursor: pointer; }
   .slider__btn-triggers {
     top: 44%; }
   .slider__btn-trigger-left {

@@ -20,7 +20,7 @@
         text-align: left;
 	}
 
-	&__photo--hide{
+	&__photo--hide {
 		display:none;
 	}
 
@@ -57,6 +57,11 @@
 	}
 
 	&__btn-trigger {
+		position: absolute;
+		cursor: pointer;
+	}
+
+	&__current-slide {
 		position: absolute;
 		cursor: pointer;
 	}
