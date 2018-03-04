@@ -78,17 +78,36 @@
 		right: 11.4%;
 	}
 
-	//slide indicators
 	&__btn-indicator {
 		top: 91.5%;
 	}
+
 	&__btn-indicator-1st {
 		left: 47.2%; 
 	}
+
 	&__btn-indicator-2nd {
 		left: 49.5%; 
 	}
+
 	&__btn-indicator-3rd {
 		left: 51.75%; 
+	}
+
+	& .active{
+		background-color: #e7ba2f;
+	}
+
+	&__btn--indicator {
+		cursor: pointer;
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+		border: none;
+		outline: none;
 	}
 }
