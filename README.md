@@ -2,6 +2,7 @@
 
 # Pre-requisites
 
+- Gulp v3.9.1
 - Bower v1.8.2
 - Node v8.9.4
 
@@ -11,4 +12,4 @@
 
 # Start Server
 
-``gulp`` 
+``gulp``
