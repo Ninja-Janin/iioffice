@@ -22,16 +22,17 @@
 		}
 
 		&:first-child{
-			margin-top: 10px;
+			margin-top: 2px;
 			padding: 0 0em 1em;
 		}
 	}
 
 	&__article-item-image {
+		margin-left: 19px;
 		float: left;
-		width: 210px;
-		height: 123px;
-		padding: 12px 15px 0 0;
+		width: 206px;
+		height: 116px;
+		padding: 7px 23px 0 0;
 	}
 
 	&__article-item-date {
@@ -61,14 +62,13 @@
 	}
 
 	&__articles-footer-btn {
-		margin: 79px auto 39px 0;
+		margin: 188px -88px 39px 0;
 		text-align: center;
 	}
 
 	&__more-articles-btn {
 		position: relative;
-		padding: 5px 187px;
-		border-width: 0;
+		padding: 7px 178px;
 		cursor: pointer;
 		font-size: 20px;
 		color: $white;
@@ -84,6 +84,6 @@
 		width: 9px;
 		position: absolute;
 		top: 31%;
-		right: 7%;
+		right: 4.10%;
 	}   
 }

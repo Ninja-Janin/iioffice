@@ -1,40 +1,21 @@
 .slider {
-	vertical-align: middle;
 	position: relative;
 	margin-bottom: 20px;
 	overflow: hidden;
 
-	&__photo--fade {
-		-webkit-animation: fade 1s;
-		animation: fade 1s;
-	}
-
-	&__photo--left {
-		-webkitanimation: left 1s;
-		animation: left 1s;
-	}
-	
-	&__photo--right {
-		-webkit-animation: right 1s;
-		animation: right 1s;
-	}
-
 	&__photo {
+        position: relative;
         font-size: 0;
         width: 312%;
         margin: 8px 0;
-        position: relative;
         left: 0%;
         text-align: left;
-	}
-
-	&__photo--hide {
-		display:none;
+		position: relative;
 	}
 
 	&__photo-image {
         width: 33.333%; 
-        float: left;
+		float: left;
 	}
 
 	&__caption {

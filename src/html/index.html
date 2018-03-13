@@ -13,9 +13,9 @@
 		<main>
 			<section class="slider">
 				<figure id="photo-slider" class="slider__photo">
-					<img id="img-1" src="./src/images/slide-one.jpg" alt="" class="slider__photo-image slider__photo--hide">
-					<img id="img-2" src="./src/images/slide-two.jpg" alt="" class="slider__photo-image slider__photo--hide">
-					<img id="img-3" src="./src/images/slide-three.jpg" alt="" class="slider__photo-image slider__photo--hide">
+					<img src="./src/images/slide-one.jpg" alt="" class="slider__photo-image">
+					<img src="./src/images/slide-two.jpg" alt="" class="slider__photo-image">
+					<img src="./src/images/slide-three.jpg" alt="" class="slider__photo-image">
 				</figure>
 				<figure>
 					<figcaption class="slider__content">
@@ -23,11 +23,14 @@
 						<h4 class="slider__caption slider__qoute--sub-1">サンプルテキストサンプルテキストサンプルテキストサンプルテキスト </h4>
 						<h4 class="slider__caption slider__qoute--sub-2">サンプルテキストサンプルテキストサンプルテキストサンプルテキスト</h4>
 					</figcaption>
+
 					<img src="./src/images/left-arrow.png" id="previous" alt=""  class="slider__btn-trigger slider__btn-triggers slider__btn-trigger-left">
 					<img src="./src/images/right-arrow.png" id="next" alt="" class="slider__btn-trigger slider__btn-trigger-right slider__btn-triggers">
-					<button class="slider__btn--indicator slider__current-slide slider__btn-indicator slider__btn-indicator-1st" id="indicator-1"></button> 
-					<button class="slider__btn--indicator slider__current-slide slider__btn-indicator slider__btn-indicator-2nd" id="indicator-2"></button> 
-					<button class="slider__btn--indicator slider__current-slide slider__btn-indicator slider__btn-indicator-3rd" id="indicator-3"></button> 
+					<ul class="triggers">
+						<li class="slider__btn--indicator slider__current-slide slider__btn-indicator slider__btn-indicator-1st" id="indicator-1"></li>
+						<li class="slider__btn--indicator slider__current-slide slider__btn-indicator slider__btn-indicator-2nd" id="indicator-2"></li>
+						<li class="slider__btn--indicator slider__current-slide slider__btn-indicator slider__btn-indicator-3rd" id="indicator-3"></li>
+					</ul>
 				</figure>
 			</section>
 			<section>
