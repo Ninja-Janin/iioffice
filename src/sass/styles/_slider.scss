@@ -5,16 +5,24 @@
 	overflow: hidden;
 
 	&__photo--fade {
-		-webkit-animation-name: fade;
-		-webkit-animation-duration: 1.5s;
-		animation-name: fade;
-		animation-duration: 1.5s;
+		-webkit-animation: fade 1s;
+		animation: fade 1s;
+	}
+
+	&__photo--left {
+		-webkitanimation: left 1s;
+		animation: left 1s;
+	}
+	
+	&__photo--right {
+		-webkit-animation: right 1s;
+		animation: right 1s;
 	}
 
 	&__photo {
         font-size: 0;
-        width: 300%;
-        margin: 0;
+        width: 312%;
+        margin: 8px 0;
         position: relative;
         left: 0%;
         text-align: left;
@@ -35,11 +43,11 @@
 
 	&__content {
 		position: absolute; 
-		left: 0;
+		left: 61px;
 		right: -29px; 
 		margin-left: auto; 
 		margin-right: auto; 
-		top:59px;
+		top:75px;
 		text-align: center;
 	}
 
@@ -47,13 +55,21 @@
 		top: 4em;
 		left: 20%;
         font-size: 62.7px;
+		letter-spacing: 2px;
 	}
 
-	&__qoute--sub {
-		margin-top: -36px;
-		margin-left: -23px;
+	&__qoute--sub-1 {
+		margin-top: -35px;
+		margin-left: -33px;
 		font-size: 1em;
-		letter-spacing: 0.07;
+		letter-spacing: 1.8px;
+	}
+
+	&__qoute--sub-2 {
+		margin-top: -23px;
+		margin-left: -35px;
+		font-size: 1em;
+		letter-spacing: 1.8px;
 	}
 
 	&__btn-trigger {
@@ -67,15 +83,15 @@
 	}
 
 	&__btn-triggers {
-		top: 44%;
+		top: 45%;
 	}
 
 	&__btn-trigger-left {
-		left:11.4%
+		left:11.9%
 	}
 
 	&__btn-trigger-right {
-		right: 11.4%;
+		right: 8.1%;
 	}
 
 	&__btn-indicator {
@@ -83,15 +99,15 @@
 	}
 
 	&__btn-indicator-1st {
-		left: 47.2%; 
+		left: 48.8%; 
 	}
 
 	&__btn-indicator-2nd {
-		left: 49.5%; 
+		left: 51.2%; 
 	}
 
 	&__btn-indicator-3rd {
-		left: 51.75%; 
+		left: 53.5%; 
 	}
 
 	& .active{
@@ -100,8 +116,8 @@
 
 	&__btn--indicator {
 		cursor: pointer;
-		height: 15px;
-		width: 15px;
+		height: 17px;
+		width: 17px;
 		margin: 0 2px;
 		background-color: #bbb;
 		border-radius: 50%;

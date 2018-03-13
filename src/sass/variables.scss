@@ -13,9 +13,33 @@ $light-grey:   #EFEFEF;
 	    to {opacity: 1}
 }
 
+@webkit-keyframes left {
+	100%{
+		transform: translateX(calc(350px - 200vw));
+	}
+}
+
+@webkit-keyframes right {
+	100%{
+		transform: translateX(calc(100vw + 350px));
+	}
+}
+
 @keyframes fade {
 	  from {opacity: .4} 
 	    to {opacity: 1}
+}
+
+@keyframes left {
+	100%{
+		transform: translateX(calc(350px - 200vw));
+	}
+}
+
+@keyframes right {
+	100%{
+		transform: translateX(calc(100vw + 350px));
+	}
 }
 
 
