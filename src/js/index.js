@@ -49,4 +49,9 @@ $(document).ready(() => {
 	    target === lastElem ? target = 0 : target = target+1;
 	    sliderResponse(target);
 	}
+
+	$('#scroll-top-btn').on('click', () => {
+		$('html, body').animate({ scrollTop: 0 }, 'slow');
+		return false;
+	});
 });
