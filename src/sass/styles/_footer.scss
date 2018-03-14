@@ -2,7 +2,7 @@
 	clear: both;
 
 	&__btn-container {
-		padding: 1em 8.4em;
+		padding: 1em 9vw;
 		text-align: right;
 	}
 
@@ -12,15 +12,17 @@
 	}
 
 	&__nav {
-		padding: 1em 8.4em;
+		padding: 10px 9vw;
 		color: $white;
 		background-color: $black;
 	}
 
 	&__text {
-		padding-right: $medium;
+		padding-right: 16px;
 		color: $white;
 		text-decoration: none;
+		font-size: 13px;
+		letter-spacing: 0.01em;
 
 		&:hover {
 			color: $grey61;
@@ -29,5 +31,6 @@
 
 	&__copyright {
 		float: right;
+		letter-spacing: 0.035em;
 	}
 }

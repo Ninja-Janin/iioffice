@@ -7,7 +7,7 @@
         position: relative;
         font-size: 0;
         width: 312%;
-        margin: 8px 0;
+        margin: 12px 0;
         left: 0%;
         text-align: left;
 	}
@@ -23,12 +23,13 @@
 
 	&__content {
 		position: absolute; 
-		left: 61px;
-		right: -29px; 
-		margin-left: auto; 
-		margin-right: auto; 
-		top:75px;
+		top: 50%;
+		left: 50%;
+		width: 100%;
+		
 		text-align: center;
+
+		transform: translate(-50%, -57%);
 	}
 
 	&__qoute--main {
@@ -39,15 +40,15 @@
 	}
 
 	&__qoute--sub-1 {
-		margin-top: -35px;
-		margin-left: -33px;
+		margin-top: -29px;
+    margin-left: -27px;
 		font-size: 1em;
 		letter-spacing: 1.8px;
 	}
 
 	&__qoute--sub-2 {
-		margin-top: -23px;
-		margin-left: -35px;
+		margin-top: -21px;
+		margin-left: -27px;
 		font-size: 1em;
 		letter-spacing: 1.8px;
 	}
@@ -67,11 +68,11 @@
 	}
 
 	&__btn-trigger-left {
-		left:11.9%
+		left: 6.7vw;
 	}
 
 	&__btn-trigger-right {
-		right: 8.1%;
+		right: 6.7vw;
 	}
 
 	&__btn-indicator {
@@ -79,15 +80,15 @@
 	}
 
 	&__btn-indicator-1st {
-		left: 48.8%; 
+		left: 45.5%; 
 	}
 
 	&__btn-indicator-2nd {
-		left: 51.2%; 
+		left: 48%; 
 	}
 
 	&__btn-indicator-3rd {
-		left: 53.5%; 
+		left: 50.5%; 
 	}
 
 	& .active{
@@ -99,7 +100,7 @@
 		height: 17px;
 		width: 17px;
 		margin: 0 2px;
-		background-color: #bbb;
+		background-color: #fff;
 		border-radius: 50%;
 		display: inline-block;
 		transition: background-color 0.6s ease;

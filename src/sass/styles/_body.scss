@@ -1,5 +1,5 @@
 body{
-	min-width:960px;
+	min-width: 960px;
 	font-family: $font-family;
 	margin:	0;
 
@@ -10,7 +10,7 @@ body{
 
 	& main {
 		& section:nth-of-type(2) {
-			min-width: 1147px;
+			min-width: 1190px;
 			max-width: 500px;
 			width: 0;
 			margin: auto; 

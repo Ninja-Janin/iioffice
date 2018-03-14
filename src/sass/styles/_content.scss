@@ -1,12 +1,13 @@
 .content {
 	&__article {
 		float: left;
-		width: 712px;
+		width: 740px;
 		min-width: 380px;
 		padding-right: 55px;
 
 		& ul{
 			list-style: none;
+			margin: -15px 0 0 15px;
 		}
 	}
 
@@ -22,17 +23,16 @@
 		}
 
 		&:first-child{
-			margin-top: 2px;
-			padding: 0 0em 1em;
+			margin-top: 26px;
+			padding: 0 0 8px;
 		}
 	}
 
 	&__article-item-image {
-		margin-left: 19px;
 		float: left;
-		width: 206px;
+		width: 207px;
 		height: 116px;
-		padding: 7px 23px 0 0;
+		padding: 12px 13px 0 0;
 	}
 
 	&__article-item-date {
@@ -42,13 +42,15 @@
 		line-height: 1.3em;
 		color: $grey61;
 		padding-top: 10px;
+		letter-spacing: -0.06em;
 	}
 
 	&__article-item-title {
-		margin: 3px auto 3px auto;
+		margin: 6px auto;
 		font-size: 17px;
 		font-weight: bold;
-		line-height: 1.5em;
+		line-height: 1.4em;
+		letter-spacing: 0.04em;
 
 		&:hover {
 			color: $dark-yellow;
@@ -59,16 +61,18 @@
 		margin: 0 auto;
 		font-size: 14px;
 		line-height: 1.3em;
+		letter-spacing: -0.11em;
 	}
 
 	&__articles-footer-btn {
-		margin: 188px -88px 39px 0;
+		margin: 63px auto 39px 51px;
 		text-align: center;
 	}
 
 	&__more-articles-btn {
 		position: relative;
-		padding: 7px 178px;
+		padding: 10px 178px;
+		border-width: 0;
 		cursor: pointer;
 		font-size: 20px;
 		color: $white;
@@ -84,6 +88,6 @@
 		width: 9px;
 		position: absolute;
 		top: 31%;
-		right: 4.10%;
+		right: 4%;
 	}   
 }

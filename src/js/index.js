@@ -2,15 +2,19 @@ $(document).ready(() => {
 	var triggers = $('ul.triggers li');
 	var images = $('.slider__photo-image');
 	var lastElem = triggers.length-1;
-	var mask = $('.slider__photo');
-	var imgWidth = images.width();
+	var slider = $('.slider__photo');
 	var target;
+	var lastTarget;
 
+	setInterval(() => {
+		slider.css('width', $(window).width()*(lastElem+1) +'px');
+	    slider.stop(true,false).css({'left':'-'+ $(window).width()*target +'px'},300);
+	}, 1500);
 	triggers.first().addClass('active');
-	mask.css('width', imgWidth*(lastElem+1) +'px');
 
 	function sliderResponse(target) {
-	    mask.stop(true,false).animate({'left':'-'+ imgWidth*target +'px'},300);
+		lastTarget = target;
+	    slider.stop(true,false).animate({'left':'-'+ $(window).width()*target +'px'},300);
 	    triggers.removeClass('active').eq(target).addClass('active');
 	}
 
