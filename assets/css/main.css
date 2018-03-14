@@ -200,7 +200,8 @@ body {
 .slider {
   position: relative;
   margin-bottom: 20px;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 100%; }
   .slider__photo {
     position: relative;
     font-size: 0;

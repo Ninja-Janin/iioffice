@@ -6,16 +6,17 @@ $(document).ready(() => {
 	var target;
 	var lastTarget;
 
-	// setInterval(() => {
-	// 	slider.css('width', $(window).width()*(lastElem+1) +'px');
-	//     slider.stop(true,false).css({'left':'-'+ $(window).width()*target +'px'},300);
-	// }, 1500);
-	//
+	slider.width((100 * images.length) + '%');
+	images.width((100 / images.length) + '%');
 	triggers.first().addClass('active');
 
 	function sliderResponse(target) {
 		lastTarget = target;
-	    slider.stop(true,false).animate({'left':'-'+ images.width()*target +'px'},300);
+
+		slider.animate({
+			left: (lastTarget * -100) + '%'
+		})
+
 	    triggers.removeClass('active').eq(target).addClass('active');
 	}
 
