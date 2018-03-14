@@ -15,6 +15,7 @@
 
 	&__photo-image {
         width: 33.333%; 
+        height: 418px;
 		float: left;
 	}
 
@@ -30,7 +31,7 @@
 		
 		text-align: center;
 
-		transform: translate(-50%, -57%);
+		transform: translate(-49%, -57%);
 	}
 
 	&__qoute--main {
@@ -42,7 +43,7 @@
 
 	&__qoute--sub-1 {
 		margin-top: -29px;
-    margin-left: -27px;
+		margin-left: -27px;
 		font-size: 1em;
 		letter-spacing: 1.8px;
 	}
@@ -65,31 +66,31 @@
 	}
 
 	&__btn-triggers {
-		top: 45%;
+		top: 46%;
 	}
 
 	&__btn-trigger-left {
-		left: 6.7vw;
+		left: 7.6vw;
 	}
 
 	&__btn-trigger-right {
-		right: 6.7vw;
+		right: 7.9vw;
 	}
 
 	&__btn-indicator {
-		top: 91.5%;
+		top: 91.7%;
 	}
 
 	&__btn-indicator-1st {
-		left: 45.5%; 
+		left: 46.5%; 
 	}
 
 	&__btn-indicator-2nd {
-		left: 48%; 
+		left: 49%; 
 	}
 
 	&__btn-indicator-3rd {
-		left: 50.5%; 
+		left: 51.5%; 
 	}
 
 	& .active{

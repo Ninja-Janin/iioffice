@@ -147,7 +147,6 @@ body {
   .site-header__title {
     margin: 0;
     margin-top: 6px;
-    margin-left: 55px;
     font-size: 60px;
     letter-spacing: 5px; }
 
@@ -211,6 +210,7 @@ body {
     text-align: left; }
   .slider__photo-image {
     width: 33.333%;
+    height: 418px;
     float: left; }
   .slider__caption {
     color: #FFF; }
@@ -220,7 +220,7 @@ body {
     left: 50%;
     width: 100%;
     text-align: center;
-    transform: translate(-50%, -57%); }
+    transform: translate(-49%, -57%); }
   .slider__qoute--main {
     top: 4em;
     left: 20%;
@@ -243,19 +243,19 @@ body {
     position: absolute;
     cursor: pointer; }
   .slider__btn-triggers {
-    top: 45%; }
+    top: 46%; }
   .slider__btn-trigger-left {
-    left: 6.7vw; }
+    left: 7.6vw; }
   .slider__btn-trigger-right {
-    right: 6.7vw; }
+    right: 7.9vw; }
   .slider__btn-indicator {
-    top: 91.5%; }
+    top: 91.7%; }
   .slider__btn-indicator-1st {
-    left: 45.5%; }
+    left: 46.5%; }
   .slider__btn-indicator-2nd {
-    left: 48%; }
+    left: 49%; }
   .slider__btn-indicator-3rd {
-    left: 50.5%; }
+    left: 51.5%; }
   .slider .active {
     background-color: #e7ba2f; }
   .slider__btn--indicator {
